@@ -1,0 +1,35 @@
+
+http://euler.jakumo.org/problems.html
+http://www.pythonchallenge.com/pc/def/map.html
+
+гоночки консольные
+просмотрщик изображений
+paint
+змейка
+тетрис
+три в ряд
+(ищи простые, старые, лог игры)
+Картоные игры, 21, пасьянсы
+
+Чиптюн, создание музыки.
+генерация, музыки, изображений, моделей, анимации. изучить основные алгоритмы.
+
+
+youtube-api
+
+PIL http://effbot.org/imagingbook/imagedraw.htm
+http://www.pythonforbeginners.com/gui/how-to-use-pillow
+
+регулярки
+https://automatetheboringstuff.com/
+opengl Nehe
+sdl? 2d engine
+pygame http://www.pygame.org/hifi.html
+cocos2d http://python.cocos2d.org/download.html
+https://learnpythonthehardway.org/book/intro.html
+http://www.practicepython.org/
+
+Читать книги.
+
+примеры с розеттакод
+

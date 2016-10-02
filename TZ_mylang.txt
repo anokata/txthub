@@ -1,0 +1,10 @@
+какие коллекции должны быть в моём языке и как они должны обрабатываться?
+  N вопросов на которые должен ответить создатель языка
+более удобный switch(patter matching???)
+массивы
+списки
+Языки должен быть прост, давать всё легко но и позволять отключить и делать низкоуровневое
+нужно ли стандартное выносить в стд модули?
+
+http://www.wikihow.com/Create-a-Programming-Language
+http://www.drdobbs.com/architecture-and-design/so-you-want-to-write-your-own-language/240165488
