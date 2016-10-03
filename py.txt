@@ -31,3 +31,14 @@ functools.reduce
 filter()
 map()
 
+enumerate() zip()
+collections.defaultdict()
+  .counter()
+  .most_common()
+  OrderedDict()
+  deque
+itertools.chain()
+  cycle
+  accumulate
+pprint.pprint
+

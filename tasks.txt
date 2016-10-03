@@ -2,34 +2,57 @@
 http://euler.jakumo.org/problems.html
 http://www.pythonchallenge.com/pc/def/map.html
 
-гоночки консольные
+
 просмотрщик изображений
 paint
-змейка
-тетрис
-три в ряд
+
 (ищи простые, старые, лог игры)
 Картоные игры, 21, пасьянсы
 
 Чиптюн, создание музыки.
 генерация, музыки, изображений, моделей, анимации. изучить основные алгоритмы.
 
-
-youtube-api
+Web:
+  Django
+  http://freedjangohosting.com/
+  youtube-api
 
 PIL http://effbot.org/imagingbook/imagedraw.htm
 http://www.pythonforbeginners.com/gui/how-to-use-pillow
 
 регулярки
 https://automatetheboringstuff.com/
-opengl Nehe
-sdl? 2d engine
-pygame http://www.pygame.org/hifi.html
-cocos2d http://python.cocos2d.org/download.html
 https://learnpythonthehardway.org/book/intro.html
 http://www.practicepython.org/
 
 Читать книги.
 
 примеры с розеттакод
+
+Движки:
+opengl Nehe pyopengl
+sdl? 2d engine
+
+1. SFML, http://www.python-sfml.org/
+2. pygame http://www.pygame.org/hifi.html https://habrahabr.ru/post/193888/
+3. pyglet habrahabr.ru/post/158023
+4. cocos2d http://python.cocos2d.org/download.html
+  https://github.com/los-cocos/cocos/tree/master/test
+  https://github.com/los-cocos/cocos/tree/master/samples
+  http://python.cocos2d.org/doc/programming_guide/index.html
+5. GTK onpain draw PIL
+
+Игры:
+a. гоночки консольные\2д
+b. змейка
+c. тетрис
+d. три в ряд
+e. блекджек
+f. маджонг
+g. понг
+
+g:3
+b:2
+a:4
+e:1
 

@@ -18,3 +18,4 @@ http://pascalabc.net/primeri-programm/algoritmi-i-programmi-dlya-studentov
     *******
 
 50. написать консольные крестики-нолики
+А.0  Написать программу выводящую в точности свой исходный код, не читая файл.

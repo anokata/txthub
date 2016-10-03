@@ -4,9 +4,26 @@
 управление с клавы, с фиксированной скоростью.
 бот, не стоящий на месте, или хотя бы следящий.
 1. отображение поля - линия, ракетки, мяч. игровые объекты.
+1.1 нарисовать прямоугольник. без изображений.
 2. определение пересечения мяча и ракеток и выход за поле. счёт голов.
 3. движение мяча. отскок. отскок от верхних границ.
+4. настраиваемая сложность. или изменяющаяся от счёта.
+  игра двух ботов
+  добавление Y скорости при отбивании в соответствующую сторону
+  мяч выкидывается в сторону выигравшего
+  или ускорение каждое отбивание
+  суперудары - отбить сразу. раскиданные бонусы. цвет мяча - чей сейчас.
+  увеличение уменьшение ракетки.
+  здоровье? защита штаба?
+5. Меню. выбор режимов, бот, 1х1, сложность.
 
 
-2д движок использовать или что? или гтк пэйнт и ПИЛ?
-глянем кокос2д\pyglet: 
+pyglet:
+~/tst/python/pyglettutorial
+habrahabr.ru/post/158023
+https://pythonhosted.org/pyglet/api/index.html
+https://pythonhosted.org/pyglet/programming_guide/index.html
+https://pyglet.readthedocs.io/en/pyglet-1.2-maintenance/
+https://pyglet.readthedocs.io/en/pyglet-1.2-maintenance/programming_guide/image.html#accessing-or-providing-pixel-data
+https://pyglet.readthedocs.io/en/pyglet-1.2-maintenance/programming_guide/image.html#sprites
+
