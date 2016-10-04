@@ -25,6 +25,13 @@ https://automatetheboringstuff.com/
 https://learnpythonthehardway.org/book/intro.html
 http://www.practicepython.org/
 
+Можно ли на мобиле запустить питон и писать не нём приложения? sl4a, 
+http://deadlock.org.ua/kit/habr/post/1605
+https://habrahabr.ru/search/?q=%5Bsl4a%5D&target_type=posts?q=%5Bsl4a%5D&target_type=posts
+https://habrahabr.ru/post/135902/
+https://habrahabr.ru/post/139417/
+https://habrahabr.ru/post/134184/
+
 Читать книги.
 
 примеры с розеттакод
