@@ -42,3 +42,6 @@ itertools.chain()
   accumulate
 pprint.pprint
 
+property()
+@property
+

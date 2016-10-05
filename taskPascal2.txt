@@ -4,6 +4,9 @@
     13:30 решай!
 
 
+8.? Обработать 20 файлов.
+
+
 динамические структуры данных. указатели?
 
 http://pascalabc.net/primeri-programm/algoritmi-i-programmi-dlya-studentov
