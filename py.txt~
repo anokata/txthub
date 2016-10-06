@@ -47,5 +47,4 @@ property()
 
 @classmethod
 @staticmethod
-from collections import namedtuple
 

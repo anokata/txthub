@@ -1,14 +1,24 @@
-
+Задачки:
+http://www.pyschools.com/quiz/view_topic/s14
 http://euler.jakumo.org/problems.html
 http://www.pythonchallenge.com/pc/def/map.html
 
+https://wiki.python.org/moin/BeginnersGuide
+https://www.opennet.ru/docs/RUS/diveinto_python/
+http://pythonbooks.revolunet.com/
+https://docs.python.org/3.6/tutorial/
+https://wiki.python.org/moin/RussianLanguage
 
+https://checkio.org/
+http://www.afterhoursprogramming.com/users/create/
+
+https://cloud.docker.com/app/anokata
+http://smarterer.com/
+https://wiki.python.org/moin/BeginnersGuide
+
+Приложения:
 просмотрщик изображений
 paint
-
-(ищи простые, старые, лог игры)
-Картоные игры, 21, пасьянсы
-
 Чиптюн, создание музыки.
 генерация, музыки, изображений, моделей, анимации. изучить основные алгоритмы.
 
@@ -16,6 +26,8 @@ Web:
   Django
   http://freedjangohosting.com/
   youtube-api
+  https://www.pythonanywhere.com/user/anokata/
+  http://anokata.pythonanywhere.com/
 
 PIL http://effbot.org/imagingbook/imagedraw.htm
 http://www.pythonforbeginners.com/gui/how-to-use-pillow
@@ -25,7 +37,7 @@ https://automatetheboringstuff.com/
 https://learnpythonthehardway.org/book/intro.html
 http://www.practicepython.org/
 
-Можно ли на мобиле запустить питон и писать не нём приложения? sl4a, 
+Можно ли на мобиле запустить питон и писать не нём приложения? sl4a,
 http://deadlock.org.ua/kit/habr/post/1605
 https://habrahabr.ru/search/?q=%5Bsl4a%5D&target_type=posts?q=%5Bsl4a%5D&target_type=posts
 https://habrahabr.ru/post/135902/
@@ -36,9 +48,15 @@ https://habrahabr.ru/post/134184/
 
 примеры с розеттакод
 
+Games:
+(ищи простые, старые, лог игры)
+Картоные игры, 21, пасьянсы
+
 Движки:
 opengl Nehe pyopengl
 sdl? 2d engine
+
+Pylint!
 
 1. SFML, http://www.python-sfml.org/
 2. pygame http://www.pygame.org/hifi.html https://habrahabr.ru/post/193888/
@@ -51,12 +69,13 @@ sdl? 2d engine
 
 Игры:
 a. гоночки консольные\2д
-b. змейка
-c. тетрис
-d. три в ряд
-e. блекджек
-f. маджонг
-g. понг
+ b. змейка
+ c. тетрис
+ d. три в ряд
+ e. блекджек
+ f. маджонг
+ g. понг
+e. 2d платформер.
 
 g:3
 b:2
@@ -66,4 +85,5 @@ e:1
 a: Гонки.
   Вид сверху.
   Базовая версия:
-  
+
+

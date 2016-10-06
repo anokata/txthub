@@ -5,7 +5,7 @@
 
 
 8.? Обработать 20 файлов.
-
+рекурсивная функция вычисляющая - НОД(алг евкл), сумму цифр.
 
 динамические структуры данных. указатели?
 
@@ -15,7 +15,7 @@ http://pascalabc.net/primeri-programm/algoritmi-i-programmi-dlya-studentov
 методички. поиск.
 
 1. generate_n_chars(int,char) -> string (5,"*")="*****"
-2. histogram([4, 9, 7]) -> 
+2. histogram([4, 9, 7]) ->
     ****
     *********
     *******
