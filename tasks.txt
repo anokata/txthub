@@ -2,32 +2,52 @@
 http://www.pyschools.com/quiz/view_topic/s14
 http://euler.jakumo.org/problems.html
 http://www.pythonchallenge.com/pc/def/map.html
-
 https://wiki.python.org/moin/BeginnersGuide
 https://www.opennet.ru/docs/RUS/diveinto_python/
 http://pythonbooks.revolunet.com/
 https://docs.python.org/3.6/tutorial/
 https://wiki.python.org/moin/RussianLanguage
-
 https://checkio.org/
 http://www.afterhoursprogramming.com/users/create/
-
 https://cloud.docker.com/app/anokata
 http://smarterer.com/
 https://wiki.python.org/moin/BeginnersGuide
+Изучать сложные темы:
+деревья
+синтаксический анализ
+3д рендер
+комплексные функции
+
 
 Приложения:
-просмотрщик изображений
-paint
+0) просмотрщик изображений
+1) запускатор приложений одной кнопкой. отображать значки(буквы), ждать ввода. график(Tk, gtk?), добавление crud ссылок.
+2) Заметки. дерево. сохранять в разных форматах. и на серв.
+	Редактор текста? запускать внешний.
+3) Програмку для бэкапа и восстановления конфигов. 
+	список конфигов составлять.
+4) paint
 Чиптюн, создание музыки.
 генерация, музыки, изображений, моделей, анимации. изучить основные алгоритмы.
+Симуляция города, кучи людей, отношений, желаний, вещей. самоорганизованность? кооперация. эволюция. от племени.
+меню.
+ телепорты. порталы. свитки телепортации.
+ города, пустыни, масштаб.
+ планеты, путешествия. здания.
+ магия. монстры. вещи.
+ люди. инопланетяне. деньги. ресурсы. скилы статы.
 
 Web:
+  0) Простейший чат. сделать сначала локально.
+	  перенести на хостинг. Просто хранить в памяти(потом в файл) лог чата, выдавать по запросу, добавлять.
+	  клиент, граф на Tk, коннект к хосту, и читает периодически  и может отправлять.
   Django
   http://freedjangohosting.com/
   youtube-api
   https://www.pythonanywhere.com/user/anokata/
   http://anokata.pythonanywhere.com/
+  https://flask-russian-docs.readthedocs.io/ru/latest/quickstart.html
+
 
 PIL http://effbot.org/imagingbook/imagedraw.htm
 http://www.pythonforbeginners.com/gui/how-to-use-pillow
@@ -51,16 +71,20 @@ https://habrahabr.ru/post/134184/
 Games:
 (ищи простые, старые, лог игры)
 Картоные игры, 21, пасьянсы
+Философский посыл смысл игры
 
 Движки:
 opengl Nehe pyopengl
 sdl? 2d engine
 
-Pylint!
+https://news.ycombinator.com/item?id=9162670
 
+Pylint!
+https://pyweek.org/
 1. SFML, http://www.python-sfml.org/
 2. pygame http://www.pygame.org/hifi.html https://habrahabr.ru/post/193888/
 3. pyglet habrahabr.ru/post/158023
+  20-30 спрайтов и уже тормоза
 4. cocos2d http://python.cocos2d.org/download.html
   https://github.com/los-cocos/cocos/tree/master/test
   https://github.com/los-cocos/cocos/tree/master/samples
@@ -86,4 +110,10 @@ a: Гонки.
   Вид сверху.
   Базовая версия:
 
+Рассмотрим др движки:
+Blender
+
++Pygame Решить проблему разной скорости
++surface = pygame.image.load('foo.png').convert()
+rect.collidepoin
 
