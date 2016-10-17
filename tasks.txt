@@ -1,8 +1,8 @@
-Найти где музыку качать и слушать. misfits ost
-Запуск разных задач(функций) с разной частотой. таблицу фун\частота. цикл обработки и вызов? или есть отложенные вызовы?
+Читать книги.
+/home/ksi/ydsk/read book/devbook/python/
+	1. Билл Любанович - Простой Python  
 
-Peewee ORM
-WatchDog
+Запуск разных задач(функций) с разной частотой. таблицу фун\частота. цикл обработки и вызов? или есть отложенные вызовы?
 
 Задачки:
 http://www.pyschools.com/quiz/view_topic/s14
@@ -18,11 +18,32 @@ http://www.afterhoursprogramming.com/users/create/
 https://cloud.docker.com/app/anokata
 http://smarterer.com/
 https://wiki.python.org/moin/BeginnersGuide
+
+https://flask-russian-docs.readthedocs.io/ru/latest/quickstart.html
+регулярки
+https://automatetheboringstuff.com/
+https://learnpythonthehardway.org/book/intro.html
+http://www.practicepython.org/
+Можно ли на мобиле запустить питон и писать не нём приложения? sl4a,
+http://deadlock.org.ua/kit/habr/post/1605
+https://habrahabr.ru/search/?q=%5Bsl4a%5D&target_type=posts?q=%5Bsl4a%5D&target_type=posts
+https://habrahabr.ru/post/135902/
+https://habrahabr.ru/post/139417/
+https://habrahabr.ru/post/134184/
+
+примеры с розеттакод
+
+
 Изучать сложные темы:
 деревья
 синтаксический анализ
 3д рендер
 комплексные функции
+Написать алгоритмы из книги алгоритмов и разобраться с их сложностью.
+	Дано: массив из N рандомных чисел.
+	Требуется: найти наибольшие K чисел из массива и оценить сложность алгоритма. Уточняю что K<(N/2), N большое число, интересует наиболее быстрый алгоритм, на расход памяти плевать. 
+	Дано: массив «значений» и соотвествующие этим значениям численные коэффициенты. Необходимо написать функцию/метод, выбирающий произвольно одно из значений таким образом, чтобы вероятность выбора была пропорциональна соотвествующим коэффициентам. То есть, чем больше коэффициент, тем чаще должно выдаваться соотвествующее значение, и наоборот.
+
 
 
 Приложения:
@@ -33,100 +54,13 @@ https://wiki.python.org/moin/BeginnersGuide
 3) Програмку для бэкапа и восстановления конфигов. 
 	список конфигов составлять.
 4) paint
-Чиптюн, создание музыки.
-генерация, музыки, изображений, моделей, анимации. изучить основные алгоритмы.
-Симуляция города, кучи людей, отношений, желаний, вещей. самоорганизованность? кооперация. эволюция. от племени.
-меню.
- телепорты. порталы. свитки телепортации.
- города, пустыни, масштаб.
- планеты, путешествия. здания.
- магия. монстры. вещи.
- люди. инопланетяне. деньги. ресурсы. скилы статы.
 
-Web:
-  0) Простейший чат. сделать сначала локально.
-	  перенести на хостинг. Просто хранить в памяти(потом в файл) лог чата, выдавать по запросу, добавлять.
-	  клиент, граф на Tk, коннект к хосту, и читает периодически  и может отправлять.
-  Django
-  http://freedjangohosting.com/
-  youtube-api
-  https://www.pythonanywhere.com/user/anokata/
-  http://anokata.pythonanywhere.com/
-  https://flask-russian-docs.readthedocs.io/ru/latest/quickstart.html
-
-На pygame сделать 2д меню, (кастом шрифт?) для записок, управление клавы...
-Написать алгоритмы из книги алгоритмов и разобраться с их сложностью.
-	Дано: массив из N рандомных чисел.
-	Требуется: найти наибольшие K чисел из массива и оценить сложность алгоритма. Уточняю что K<(N/2), N большое число, интересует наиболее быстрый алгоритм, на расход памяти плевать. 
-	Дано: массив «значений» и соотвествующие этим значениям численные коэффициенты. Необходимо написать функцию/метод, выбирающий произвольно одно из значений таким образом, чтобы вероятность выбора была пропорциональна соотвествующим коэффициентам. То есть, чем больше коэффициент, тем чаще должно выдаваться соотвествующее значение, и наоборот.
+Django
+youtube-api
+http://freedjangohosting.com/
+https://www.pythonanywhere.com/user/anokata/
+http://anokata.pythonanywhere.com/
 
 
 
-PIL http://effbot.org/imagingbook/imagedraw.htm
-http://www.pythonforbeginners.com/gui/how-to-use-pillow
-
-регулярки
-https://automatetheboringstuff.com/
-https://learnpythonthehardway.org/book/intro.html
-http://www.practicepython.org/
-
-Можно ли на мобиле запустить питон и писать не нём приложения? sl4a,
-http://deadlock.org.ua/kit/habr/post/1605
-https://habrahabr.ru/search/?q=%5Bsl4a%5D&target_type=posts?q=%5Bsl4a%5D&target_type=posts
-https://habrahabr.ru/post/135902/
-https://habrahabr.ru/post/139417/
-https://habrahabr.ru/post/134184/
-
-Читать книги.
-
-примеры с розеттакод
-
-Games:
-(ищи простые, старые, лог игры)
-Картоные игры, 21, пасьянсы
-Философский посыл смысл игры
-
-Движки:
-opengl Nehe pyopengl
-sdl? 2d engine
-
-https://news.ycombinator.com/item?id=9162670
-
-Pylint!
-https://pyweek.org/
-1. SFML, http://www.python-sfml.org/
-2. pygame http://www.pygame.org/hifi.html https://habrahabr.ru/post/193888/
-3. pyglet habrahabr.ru/post/158023
-  20-30 спрайтов и уже тормоза
-4. cocos2d http://python.cocos2d.org/download.html
-  https://github.com/los-cocos/cocos/tree/master/test
-  https://github.com/los-cocos/cocos/tree/master/samples
-  http://python.cocos2d.org/doc/programming_guide/index.html
-5. GTK onpain draw PIL
-
-Игры:
-a. гоночки консольные\2д
- b. змейка
- c. тетрис
- d. три в ряд
- e. блекджек
- f. маджонг
- g. понг
-e. 2d платформер.
-
-g:3
-b:2
-a:4
-e:1
-
-a: Гонки.
-  Вид сверху.
-  Базовая версия:
-
-Рассмотрим др движки:
-Blender
-
-+Pygame Решить проблему разной скорости
-+surface = pygame.image.load('foo.png').convert()
-rect.collidepoin
 
