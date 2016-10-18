@@ -1,0 +1,7 @@
+.xprofile
+.bashrc
+.vimrc
+.nanorc
+.xbindkeysrc
+~/.config/i3/config
+

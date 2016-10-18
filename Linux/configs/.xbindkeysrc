@@ -1,0 +1,9 @@
+"dmenu_run"
+    m:0x8 + c:40
+    Alt + d
+"xbacklight -dec 10"
+    m:0xc + c:34
+    Control+Alt + bracketleft
+"xbacklight -inc 10"
+    m:0xc + c:35
+    Control+Alt + bracketright        
