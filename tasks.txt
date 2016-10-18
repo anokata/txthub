@@ -1,3 +1,4 @@
+алгоритмы хеширования!
 Читать книги.
 /home/ksi/ydsk/read book/devbook/python/
 	1. Билл Любанович - Простой Python  
