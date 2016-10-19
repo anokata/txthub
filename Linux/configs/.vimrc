@@ -19,7 +19,7 @@ nmap ,w :tabclose<CR>
 nmap ,, :tabnext<CR>
 nmap ,. :tabprev<CR>
 
-set noexpandtab
+set expandtab
 set tabstop=4
 set shiftwidth=4
 "imap :!setxkbmap us:!setxkbmap us,ru
@@ -48,6 +48,20 @@ map л k
 "map <F9> python3 expand('%:t')
 map <F9> :!python3 '%:t'<CR>
 map <F8> :!python3 <CR>
+map <F7> :!bash ./openlocal.sh<CR>
+map <F11> :!python3 -i '%:t'<CR>
+set autochdir
+map <F5> :call MakeDefSession()<CR>
+map <F4> :call LoadDefSession()<CR>
+
+function! MakeDefSession()
+  let b:filename = $HOME . "/.vim/sessions" . "/pythonDefSession.vim"
+  exe "mksession! " . b:filename
+endfunction
+function! LoadDefSession()
+  let b:filename = $HOME . "/.vim/sessions" . "/pythonDefSession.vim"
+  exe 'source ' b:filename
+endfunction
 
 " Сохраняет сессии для каждого каталога
 function! MakeSession()
