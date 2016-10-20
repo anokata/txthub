@@ -4,7 +4,7 @@ set nocp
 call pathogen#infect()
 call pathogen#helptags()
 
-colorscheme desert
+colorscheme delek
 filetype plugin indent on
 syntax on
 set keymap=russian-jcukenwin
