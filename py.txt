@@ -48,4 +48,11 @@ property()
 @classmethod
 @staticmethod
 from collections import namedtuple
+binascii hexlify
+struct pack unpack
+bytes bytearray
+unicodedata name lookup
+encode decode
+pickle dumps loads ...
+shelve (aka pickle with dmb)
 
