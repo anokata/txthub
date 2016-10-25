@@ -55,4 +55,5 @@ unicodedata name lookup
 encode decode
 pickle dumps loads ...
 shelve (aka pickle with dmb)
+glob
 

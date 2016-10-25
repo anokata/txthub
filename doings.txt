@@ -35,6 +35,7 @@
     2.8 изучать модули питона(collections, functools..) и др стандартные возможности.
         http://www.brunningonline.net/simon/python/quick-ref2_0.html#BuiltIn
         http://aliev.me/runestone/Trees/ListofListsRepresentation.html
+        https://pythonworld.ru/moduli
     2.9 dbm pickle shelve создание архива. (для бэкапа)
     2.A tree progressBar
 3. учиться рисовать пиксель арт.
