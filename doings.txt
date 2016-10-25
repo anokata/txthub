@@ -12,7 +12,18 @@
         2.2.1 меню
 
     2.3 (tasks.txt) решать задачки. 
+        http://www.pyschools.com/quiz/view_summary
     2.4 (books.txt) читать книги
+        (Упраж) (Практика) Саммерфилд программирование на Python - Упражнения
+        (Упраж) Лутц изучаем
+        (Практика) Python v systemnom - linux net ...
+
+        (Практика) (en) Making games - pygame
+        (Практика) (en) hackingciphers шифрование и основы
+        Саммерфил Python на практике - Паттерны
+        Рамальо - питоновкие идеи
+        Лутц программирование (много обо всё, либах)
+
     2.5 (TZ_chat) чат. сделать клиент на kiwi под android. доделать пользователей...
     2.6 (TZ_zametki) Заметки
     2.7 youtube api github api vk api REST. Как получить список видео для пользователя по подпискам.
@@ -20,6 +31,8 @@
          с возможностью получить следующие. получение урл видео и скачка в определённом формате. список пользователей.
          список скачанных видео и запуск. настройка автоскачки последних новых видео с каналов.
     2.8 изучать модули питона(collections, functools..) и др стандартные возможности.
+        http://www.brunningonline.net/simon/python/quick-ref2_0.html#BuiltIn
+        http://aliev.me/runestone/Trees/ListofListsRepresentation.html
     2.9 dbm pickle shelve создание архива. (для бэкапа)
     2.A tree progressBar
 3. учиться рисовать пиксель арт.
