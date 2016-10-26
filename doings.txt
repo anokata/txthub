@@ -44,6 +44,8 @@
         https://pythonworld.ru/moduli
     2.9 dbm pickle shelve создание архива. (для бэкапа)
     2.A tree progressBar
+    2.B shell, editor
+    2.C VM, lang
 3. учиться рисовать пиксель арт.
  
 Найти где музыку качать и слушать. misfits ost
