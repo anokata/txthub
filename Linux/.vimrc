@@ -1,8 +1,8 @@
 " Pathogen load
 filetype off
 set nocp
-call pathogen#infect()
-call pathogen#helptags()
+"call pathogen#infect()
+"call pathogen#helptags()
 
 colorscheme delek
 filetype plugin indent on
@@ -12,7 +12,7 @@ set iminsert=0
 set imsearch=0
 highlight lCursor guifg=NONE guibg=Cyan
 set guioptions -=T
-set hls
+"set hls
 set nu
 nmap ,t :tabnew<CR>
 nmap ,w :tabclose<CR>

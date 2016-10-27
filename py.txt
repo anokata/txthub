@@ -21,9 +21,6 @@ index()
 el in []
 range()
 
-
-
-
 locals()
 globals()
 
@@ -56,4 +53,6 @@ encode decode
 pickle dumps loads ...
 shelve (aka pickle with dmb)
 glob
+math.hypot
+
 
