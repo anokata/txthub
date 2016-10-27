@@ -46,6 +46,8 @@
     2.A tree progressBar
     2.B shell, editor
     2.C VM, lang
+    2.D Брать тему, искать, придумывать на неё задачи и решать изучая её.
+        PIL Complex nums : фрактал, raytracer
 3. учиться рисовать пиксель арт.
  
 Найти где музыку качать и слушать. misfits ost
