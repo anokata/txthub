@@ -54,5 +54,5 @@ pickle dumps loads ...
 shelve (aka pickle with dmb)
 glob
 math.hypot
-
+ascii
 
