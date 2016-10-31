@@ -72,7 +72,10 @@
         PIL Complex nums : фрактал, raytracer
         os files
         web server hhtp
+        как делать пакеты, установочные.
+        virtualenv
+        Shovel
+        Redis
 3. учиться рисовать пиксель арт.
  
-Найти где музыку качать и слушать. misfits ost
 ********************
