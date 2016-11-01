@@ -49,7 +49,8 @@ map л k
 map <F9> :!python3 '%:t'<CR>
 map <F8> :!python3 <CR>
 map <F7> :!bash ./openlocal.sh<CR>
-map <F11> :!python3 -i '%:t'<CR>
+"map <F11> :!python3 -i '%:t'<CR>
+map <F10> :!make run<CR>
 set autochdir
 map <F5> :call MakeDefSession()<CR>
 map <F4> :call LoadDefSession()<CR>
