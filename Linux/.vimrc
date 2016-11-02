@@ -1,3 +1,5 @@
+"au VimEnter * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = control'
+"au VimLeave * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Caps_Lock'
 " Pathogen load
 filetype off
 set nocp
