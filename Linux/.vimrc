@@ -131,4 +131,4 @@ au VimLeave * :call MakeSession()
 "NERDTree
 "nmap <F2> :NERDTree<CR>
 "nmap <F3> :NERDTreeClose<CR>
-"nmap ?? ysiw_ysiw_
+nmap <Leader>u ysiw_ysiw_
