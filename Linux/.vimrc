@@ -28,8 +28,8 @@ imap <silent> <F4> <ESC>:set invpaste<CR>:set paste?<CR>
 
 
 " Turn backup off, since most stuff is in SVN, git et.c anyway...
-" set nobackup
-" set nowb
+set nobackup
+set nowb
 set noswapfile
 
 set wildmenu
