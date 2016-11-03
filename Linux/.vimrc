@@ -1,6 +1,38 @@
-"au VimEnter * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = control'
-"au VimLeave * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Caps_Lock'
-" Pathogen load
+call plug#begin('~/.vim/plugged','~/.vim/bundle')
+Plug 'tpope/vim-surround'
+Plug 'scrooloose/nerdtree'
+Plug 'tpope/vim-commentary'
+Plug 'ctrlpvim/ctrlp.vim'
+
+call plug#end()
+
+let mapleader=","
+" ================ Persistent Undo ==================
+if has('persistent_undo')
+    silent !mkdir ~/.vim/backups > /dev/null 2>&1
+    set undodir=~/.vim/backups
+    set undofile
+endif
+
+let NERDTreeIgnore = ['\.pyc$']
+" Map ctrl-movement keys to window switching
+map <C-k> <C-w><Up>
+map <C-j> <C-w><Down>
+map <C-l> <C-w><Right>
+map <C-h> <C-w><Left>
+nnoremap <leader>b :BufExplorer<CR>
+" Toggle paste mode
+nmap <silent> <F4> :set invpaste<CR>:set paste?<CR>
+imap <silent> <F4> <ESC>:set invpaste<CR>:set paste?<CR>
+
+
+" Turn backup off, since most stuff is in SVN, git et.c anyway...
+" set nobackup
+" set nowb
+set noswapfile
+
+set wildmenu
+
 filetype off
 set nocp
 "call pathogen#infect()

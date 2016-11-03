@@ -46,5 +46,18 @@ best: S . D
 как перемещаться по буферам быстрее (настроить с конфига C-hklj)
 leader NErdTree
 fuzzy search
+gf go to def
 
+**********NerdTree************
+C-\
+*****vimSurround****** 'asdf' ( adf )
+cs'( сменить '' на ()
+
+ds" удалить окружающие "
+ysiw( окружить ()
+yss( окружить строку
+
+****ctrlp********
+C-p
+C-t открыть в табе 
 
