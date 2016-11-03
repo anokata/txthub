@@ -82,9 +82,9 @@ map о j
 map л k
 "map <F9> python3 expand('%:t')
 map <F9> :!python3 '%:t'<CR>
-map <C-F9> :!python3 <CR>
+"map <C-F9> :!python3 <CR>
 "map <F7> :!bash ./openlocal.sh<CR>
-"map <F11> :!python3 -i '%:t'<CR>
+map <C-F9> :!python3 -i '%:t'<CR>
 map <F10> :!make run<CR>
 map <C-F10> :!make test<CR>
 set autochdir
@@ -132,3 +132,7 @@ au VimLeave * :call MakeSession()
 "nmap <F2> :NERDTree<CR>
 "nmap <F3> :NERDTreeClose<CR>
 nmap <Leader>u ysiw_ysiw_
+noremap <Up> <nop>
+noremap <Down> <nop>
+noremap <Left> <nop>
+noremap <Right> <nop>
