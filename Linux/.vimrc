@@ -1,4 +1,5 @@
-call plug#begin('~/.vim/plugged','~/.vim/bundle')
+
+call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-surround'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-commentary'
@@ -20,7 +21,7 @@ map <C-k> <C-w><Up>
 map <C-j> <C-w><Down>
 map <C-l> <C-w><Right>
 map <C-h> <C-w><Left>
-nnoremap <leader>b :BufExplorer<CR>
+"nnoremap <leader>b :BufExplorer<CR>
 " Toggle paste mode
 nmap <silent> <F4> :set invpaste<CR>:set paste?<CR>
 imap <silent> <F4> <ESC>:set invpaste<CR>:set paste?<CR>
@@ -38,7 +39,7 @@ set nocp
 "call pathogen#infect()
 "call pathogen#helptags()
 
-colorscheme delek
+colorscheme pablo
 filetype plugin indent on
 syntax on
 set keymap=russian-jcukenwin
@@ -81,13 +82,14 @@ map о j
 map л k
 "map <F9> python3 expand('%:t')
 map <F9> :!python3 '%:t'<CR>
-map <F8> :!python3 <CR>
-map <F7> :!bash ./openlocal.sh<CR>
+map <C-F9> :!python3 <CR>
+"map <F7> :!bash ./openlocal.sh<CR>
 "map <F11> :!python3 -i '%:t'<CR>
 map <F10> :!make run<CR>
+map <C-F10> :!make test<CR>
 set autochdir
-map <F5> :call MakeDefSession()<CR>
-map <F4> :call LoadDefSession()<CR>
+nmap <C-F5> :call MakeDefSession()<CR>
+nmap <S-F5> :call LoadDefSession()<CR>
 
 function! MakeDefSession()
   let b:filename = $HOME . "/.vim/sessions" . "/pythonDefSession.vim"
@@ -127,6 +129,6 @@ au VimLeave * :call MakeSession()
 " ---конец сессий---
 
 "NERDTree
-nmap <F2> :NERDTree<CR>
-nmap <F3> :NERDTreeClose<CR>
+"nmap <F2> :NERDTree<CR>
+"nmap <F3> :NERDTreeClose<CR>
 
