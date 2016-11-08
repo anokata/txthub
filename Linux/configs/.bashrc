@@ -117,20 +117,28 @@ if ! shopt -oq posix; then
 fi
 
 # My ADD KSI IS COPY THAT!!!!!!
-RED='\[\033[01;31m\]'
+RED='\033[01;31m'
 WHITE='\[\033[01;00m\]'
-GREEN='\[\033[01;32m\]'
+GREEN='\033[01;32m'
 BLUE='\[\033[01;34m\]'
+MG='\033[01;33m'
 export PS1="$GREEN\u$WHITE@$BLUE\A$WHITE\w\$ "
 alias youtube="youtube-dl -f 'bestvideo[height<=480]+bestaudio/best[height<=480]'"
 alias nano='nano -u -x'
 alias sloc='cat *.c *.h | uniq | wc -l'
-echo 'Make autostart'
-echo 'Make reminder'
-echo 'делай зарядку'
+echo -ne "$RED"
+echo -e "read 10*5 pages at day"
+echo 'do traning'
+echo -ne "$GREEN"
+echo 'try set -o vi'
+echo 'писать тесты'
+echo -ne "$MG"
+echo 'Жить а не проживать.'
 
 alias lk='ll | grep / | grep " \."'
 alias dush='du -sh'
 
+#export PATH=$PATH;"~/bin"
 
-
+xinput --disable 11
+#wallpaperText.py --file "/home/ksi/txthub/doings.txt" --bg "/home/ksi/Downloads/bg1.png" --fontsize 17 --fontcolor "(10,100,0)"
