@@ -117,19 +117,21 @@ if ! shopt -oq posix; then
 fi
 
 # My ADD KSI IS COPY THAT!!!!!!
-RED='\033[01;31m'
+RED='\[\033[01;31m\]'
+REDne='\033[01;31m'
 WHITE='\[\033[01;00m\]'
-GREEN='\033[01;32m'
+GREEN='\[\033[01;32m\]'
+GREENne='\033[01;32m'
 BLUE='\[\033[01;34m\]'
 MG='\033[01;33m'
 export PS1="$GREEN\u$WHITE@$BLUE\A$WHITE\w\$ "
 alias youtube="youtube-dl -f 'bestvideo[height<=480]+bestaudio/best[height<=480]'"
 alias nano='nano -u -x'
 alias sloc='cat *.c *.h | uniq | wc -l'
-echo -ne "$RED"
+echo -ne "$REDne"
 echo -e "read 10*5 pages at day"
 echo 'do traning'
-echo -ne "$GREEN"
+echo -ne "$GREENne"
 echo 'try set -o vi'
 echo 'писать тесты'
 echo -ne "$MG"
