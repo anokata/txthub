@@ -12,7 +12,7 @@
         bottle, flask
         кроме этого хочу свою линукс среду удалённо. и со своими прогами. клиента потоньше?
             монтирование локальных разделов в удалённый лин и работа в нём со своими локальными данными.
-    2.2 игры (TZ_platformer, TZ_survival, TZ_games)
+    2.2 игры (TZ_platformer, TZ_survival, TZ_games) roguelike
         2.2.0 Придумать геймплей
         2.2.1 меню
         в игре должен быть элемент Большого шага мира, после которого происходит моного событий и хочется поиграть ещё и ещё.
@@ -21,11 +21,8 @@
          разные виды развития и переразвития.
         Инвенталь наподобие элоны
         редактор объектов, формат Yaml (ценность объекта... тип)
-        Инвентарь
-
 
     2.3 (tasks.txt) решать задачки. 
-        http://www.pyschools.com/quiz/view_summary
     2.4 (books.txt) читать книги
         (Упраж) (Практика) Саммерфилд программирование на Python - Упражнения
         (Упраж) Лутц изучаем
@@ -67,27 +64,31 @@
         http://www.brunningonline.net/simon/python/quick-ref2_0.html#BuiltIn
         http://aliev.me/runestone/Trees/ListofListsRepresentation.html
         https://pythonworld.ru/moduli
-    2.9 dbm pickle shelve создание архива. (для бэкапа)
     2.A tree progressBar
     2.B shell, editor
     2.C VM, lang
+    Что ещё точно осовить в python:
+    создание пакетов. setuptools, pip, easy_install
+    2.9 dbm pickle shelve создание архива, tar, zip. (для бэкапа)
     2.D Брать тему, искать, придумывать на неё задачи и решать изучая её.
-        PIL Complex nums : фрактал, raytracer
+         PIL Complex nums : фрактал, raytracer
         os files
-        web server hhtp
+        web server http
         как делать пакеты, установочные.
         virtualenv
         Shovel
         Redis
     2.E Свой консольный типа trello(+web) + календарь.
     2.F отравляку на почту
-    2.10 3D звёзды... музон...
+    2.10 3D звёзды... свет туман фонарь, музон...
     Многопоточность(для задач)
+
 3. учиться рисовать пиксель арт.
 3.1 Изучать sunvox или другое
 4. Новый софт:
     bash -o vi
     calcurse
     trello
+    streamer
      
 ********************
