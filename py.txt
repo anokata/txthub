@@ -56,3 +56,5 @@ glob
 math.hypot
 ascii
 
+sum_x_y = lambda x, y: x + y
+
