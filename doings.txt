@@ -20,6 +20,7 @@
             > pday do python learn
             > pday weigth 65 # Запишет на текущую дату данные
             > pday veiw # покажет в табличном формате
+            sleep.log 11.12.2012,8:01:01,23:01:01,7:23:21
         Финансы
     2.1 (TZ_cloudDrive) разобраться с rest api github, vk. Watchdog.  использовать либы (или не) и написать прогу для бэкапинга.
         bottle, flask
