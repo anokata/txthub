@@ -55,6 +55,8 @@ nmap <leader>t :tabnew<CR>
 nmap <leader>w :tabclose<CR>
 nmap <leader>, :tabnext<CR>
 nmap <leader>. :tabprev<CR>
+nmap <leader>f zf)
+nmap <leader>a za
 
 set expandtab
 set tabstop=4
