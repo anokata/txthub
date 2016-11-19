@@ -4,6 +4,8 @@ Plug 'tpope/vim-surround'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-commentary'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'jceb/vim-orgmode'
+Plug 'tpope/vim-speeddating'
 
 call plug#end()
 
@@ -49,10 +51,10 @@ highlight lCursor guifg=NONE guibg=Cyan
 set guioptions -=T
 "set hls
 set nu
-nmap ,t :tabnew<CR>
-nmap ,w :tabclose<CR>
-nmap ,, :tabnext<CR>
-nmap ,. :tabprev<CR>
+nmap <leader>t :tabnew<CR>
+nmap <leader>w :tabclose<CR>
+nmap <leader>, :tabnext<CR>
+nmap <leader>. :tabprev<CR>
 
 set expandtab
 set tabstop=4

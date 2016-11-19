@@ -136,9 +136,13 @@ echo 'try set -o vi'
 echo 'писать тесты'
 echo -ne "$MG"
 echo 'Жить а не проживать.'
+echo 'use_snake_style'
 
 alias lk='ll | grep / | grep " \."'
 alias dush='du -sh'
+set -o vi
+
+echo -e "$REDne"Ядерная температура: `sensors | grep Core | cut -d+ -f 2 | cut -d" " -f 1 | tr "\n" " "`
 
 #export PATH=$PATH;"~/bin"
 
