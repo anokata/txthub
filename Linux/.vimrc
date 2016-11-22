@@ -32,6 +32,7 @@ set nu
 set expandtab
 set tabstop=4
 set shiftwidth=4
+set autochdir
 
 filetype off
 colorscheme pablo
@@ -66,7 +67,7 @@ map <F9> :!python3 '%:t'<CR>
 map <C-F9> :!python3 -i '%:t'<CR>
 map <F10> :!make run<CR>
 map <C-F10> :!make test<CR>
-set autochdir
+map <F8> :!dot -Tpng % -o%.png && feh %.png<CR>
 "==== Session ====
 nmap <C-F5> :call MakeDefSession()<CR>
 nmap <S-F5> :call LoadDefSession()<CR>
