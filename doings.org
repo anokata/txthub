@@ -8,7 +8,9 @@
     1.3 Git аутентификация, работа, слияние, откат.
     1.4 скрипт резеврного копирования. список файлов, tar, gz, copy rscync gdrive yandsk ... pyserver
 *  python
+
     отделять IO
+      # State class for all world io state & subclass - out, in, player, input...
 ** roguelike
       Сделать сначала отображение символов из png атласом. Используя SDL
 
