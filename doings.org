@@ -10,6 +10,7 @@
 *  python
 
     отделять IO
+      префиксы i_ o_ io_
       # State class for all world io state & subclass - out, in, player, input...
 ** roguelike
       Сделать сначала отображение символов из png атласом. Используя SDL
