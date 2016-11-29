@@ -1,0 +1,2 @@
+/home/ksi/.bashrc
+/home/ksi/.xprofile
