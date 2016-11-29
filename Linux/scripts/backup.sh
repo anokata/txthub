@@ -1,8 +1,9 @@
 #!/bin/bash
-files=backup_files.txt
+workdir=$HOME/txthub/Linux
+files=$workdir/scripts/backup_files.txt
 back_dir=/tmp/backup
 backup=/tmp/backup.tar
-backup_dest=$HOME/txthub/Linux
+backup_dest=$workdir
 if mkdir $back_dir 2>/dev/null; then 
     echo 'no dir'
 fi
