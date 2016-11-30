@@ -1,3 +1,4 @@
 /home/ksi/.bashrc
 /home/ksi/.xprofile
 /home/ksi/.vimrc
+/home/ksi/.xbindkeysrc
