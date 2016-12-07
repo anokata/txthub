@@ -63,7 +63,7 @@ map ш i
 map о j
 map л k
 "==== DEV ====
-map <F9> :!python3 '%:t'<CR>
+map <F9> :w<CR> :!python3 '%:t'<CR>
 map <C-F9> :!python3 -i '%:t'<CR>
 map <F10> :!make run<CR>
 map <C-F10> :!make test<CR>
