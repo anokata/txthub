@@ -35,7 +35,7 @@ set shiftwidth=4
 set autochdir
 
 filetype off
-colorscheme pablo
+colorscheme darkblue
 filetype plugin indent on
 syntax on
 highlight lCursor guifg=NONE guibg=Cyan
