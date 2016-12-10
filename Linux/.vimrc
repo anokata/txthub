@@ -33,6 +33,7 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 set autochdir
+set foldmethod=indent
 
 filetype off
 colorscheme darkblue
@@ -63,6 +64,10 @@ map Ж :
 map ш i
 map о j
 map л k
+cmap ц w
+cmap й q
+cmap ч x
+cmap у e
 "==== DEV ====
 map <F9> :w<CR> :!python3 '%:t'<CR>
 map <C-F9> :!python3 -i '%:t'<CR>
