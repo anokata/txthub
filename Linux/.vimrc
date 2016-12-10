@@ -56,6 +56,7 @@ nmap <leader>. :tabprev<CR>
 " ==== Folding ====
 nmap <leader>f zf)
 nmap <leader>a za
+" fold all
 
 map ё `
 map Ж :
