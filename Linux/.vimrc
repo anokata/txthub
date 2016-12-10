@@ -64,6 +64,8 @@ map Ж :
 map ш i
 map о j
 map л k
+nmap ф a
+nmap Ф A
 cmap ц w
 cmap й q
 cmap ч x
