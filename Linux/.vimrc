@@ -59,13 +59,15 @@ nmap <leader>f zf)
 nmap <leader>a za
 " fold all
 
-map ё `
-map Ж :
-map ш i
-map о j
-map л k
+nmap ё `
+nmap Ж :
+nmap ш i
+nmap о j
+nmap л k
 nmap ф a
 nmap Ф A
+nmap б ,
+nmap ю .
 cmap ц w
 cmap й q
 cmap ч x
@@ -96,6 +98,8 @@ map <C-h> <C-w><Left>
 " Toggle paste mode
 nmap <silent> <F4> :set invpaste<CR>:set paste?<CR>
 imap <silent> <F4> <ESC>:set invpaste<CR>:set paste?<CR>
+
+iab ifmain if __name__=='__main__':<CR>
 
 function! MakeDefSession()
   let b:filename = $HOME . "/.vim/sessions" . "/pythonDefSession.vim"
