@@ -74,3 +74,8 @@ q start(q[name char] ) and q is end
 @(name char) execute
 @@ exec last
 gd go to definition
+******Buffers******
+:ls list buffers
+:b go to name
+:bp :bn next pred
+:bd name del
