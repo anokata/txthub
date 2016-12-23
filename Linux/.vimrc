@@ -36,7 +36,7 @@ set autochdir
 set foldmethod=indent
 
 filetype off
-colorscheme darkblue
+colorscheme desert
 filetype plugin indent on
 syntax on
 highlight lCursor guifg=NONE guibg=Cyan
