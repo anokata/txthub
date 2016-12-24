@@ -34,6 +34,8 @@ set tabstop=4
 set shiftwidth=4
 set autochdir
 set foldmethod=indent
+set wrap
+set textwidth=90
 
 filetype off
 colorscheme desert
@@ -100,6 +102,7 @@ map <C-h> <C-w><Left>
 " Toggle paste mode
 nmap <silent> <F4> :set invpaste<CR>:set paste?<CR>
 imap <silent> <F4> <ESC>:set invpaste<CR>:set paste?<CR>
+nnoremap K i<CR><Esc>
 
 iab ifmain if __name__=='__main__':<CR>
 

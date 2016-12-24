@@ -2,3 +2,4 @@
 /home/ksi/.xprofile
 /home/ksi/.vimrc
 /home/ksi/.xbindkeysrc
+/home/ksi/.tmux.conf
