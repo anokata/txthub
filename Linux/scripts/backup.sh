@@ -9,7 +9,7 @@ if mkdir $back_dir 2>/dev/null; then
 fi
 for f in `cat $files`
 do
-    cp $f $back_dir
+    cp -r $f $back_dir
 done
 rm $backup 2>/dev/null
 rm $backup.bz2 2>/dev/null
