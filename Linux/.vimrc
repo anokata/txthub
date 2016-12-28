@@ -48,6 +48,7 @@ if has("autocmd")
 endif
 
 let mapleader=","
+let maplocalleader=";"
 " ## Edit .vimrc ##
 map ,v :vsp $MYVIMRC<CR>
 map ,V :source $MYVIMRC<CR>
@@ -126,6 +127,7 @@ function! MakeSession()
   endif
   let b:filename = b:sessiondir . '/session.vim'
   exe "mksession! " . b:filename
+  echo "session make." . b:filename
 endfunction
 
 function! LoadSession()
