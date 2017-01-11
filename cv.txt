@@ -1,12 +1,8 @@
-Hi, My name is Stas. I'm constantly improving developer, 28 year old. (2 years of experience)
-I liked the open position and want to join your team.
-CV is attached.
-
 Hi, My name is Stas. I'm constantly improving developer, 28 year old. 
 A little over two years, I worked for a company where was engaged in the development and
 refinement of the components of infographics (Typescript, d3.js, Highcharts) for frontend, 
 creating a metamodel reports on json / javascript, 
-correction reports on asp.net, 
+fix reports on asp.net, 
 writing mdx / sql queries to multidimensional / relational databases. 
 I believe my strong points are my hunger for knowledge and fast learning. 
 I prefer to automate everyday routine of using my knowledge and expand them at the same time. 
@@ -14,7 +10,7 @@ I prefer to automate everyday routine of using my knowledge and expand them at t
 I am doing home projects in python: small games, chat, simple script (weather statistics, counting lines of code)
 My profile at github: 
 https://github.com/anokata
-Specific projects in Python: 
+Specific projects on Python: 
 https://github.com/anokata/pythonPetProjects
 
 Listed below are my experience and skills. 
@@ -31,7 +27,9 @@ My brief biography
 2005 wend to college. Surface taught basic structures - lists, queues, trees in Pascal.
 2006 Learn the basics of javascript, html, css.
 2007 Learn the basic Linux. Participated 2 times in competitions, the regional and Russia.
-2008 Self-learning assembler, writing on it a simple interpreter in C-like language and degree work - encryption executable with xor with the storage key in a file, appending decryption and checking date and availability of the key in the code section.
+2008 Self-learning assembler, writing on it a simple interpreter of C-like language and
+degree work - encryption executable with xor with the storage key in a file, appending
+decryption code and checking date and availability of the key in the code section.
 2010 Surfactants learn many languages and technologies: python, lisp, haskell, Forth, J, smalltalk
 2011 Change area of interest and learn Japanese and Chinese
 2013 Study mathematics (logic, general algebra, metamath)

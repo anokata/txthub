@@ -44,3 +44,8 @@ My brief biography
 2014 Again learn Java, C #, Haskell, detailed javascript.
         I get a job, where studied the mdx, writing a bit on javascript and typescript
 2016 I start to deeper learn C and Python.
+
+
+Hi, My name is Stas. I'm constantly improving developer, 28 year old. (2 years of experience)
+I liked the open position and want to join your team.
+CV is attached.
