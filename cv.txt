@@ -1,3 +1,6 @@
+добавить:
+помогать бизнесу, и клиентам.
+
 Hi, My name is Stas. I'm constantly improving developer, 28 year old. 
 A little over two years, I worked for a company where was engaged in the development and
 refinement of the components of infographics (Typescript, d3.js, Highcharts) for frontend, 
