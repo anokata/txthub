@@ -3,3 +3,14 @@
 технологиями. Чтобы найти себе лучшее место в дальнейшем. (если ~130чел по 6 в ком. = 21
 команда, 3 проекта) есть тесты на питоне, есть компоненты для панелей(фронт и бек, js php)
 
+можно ли использовать какой-нибудь coffescript ..etc?
+настройка окружения...
+http://docs.cloudlinux.com/
+http://kb.cloudlinux.com/
+
+* project
+** CloudLinux OS
+*** Control Panels
+** KernelCare
+** KuberDock
+** Imunify360
