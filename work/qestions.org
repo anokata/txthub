@@ -47,15 +47,3 @@ http://monitoring.lenreg.ru/?page_id=3634&LenRegOnce_paramPeriod=2015-01-01T00:0
 с чего начать, что ставить. чем собирать, тестировать, куда заливать. стандарты кода.
 Узнать кому сколько платят. И сказать сколько предложили мне :)
 
-Ещё изучить:
-angular2
-git cherry-pick
-patterns: adapter, wrapper, decorator, proxy, bridge, facade, chain of responsibility
-null > 0, null == 0
-php, namespaces
-git rebase --squash
-аспектно ориентированное п-е, js
-js test: selenium, karma?
-cPanel,...
-вёрстка
-backbone.js

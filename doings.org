@@ -145,23 +145,35 @@ opengl кольца(планет) и линии..
 * task stack
 настроить postgresql
 выписать что нужно изучить исходя из разговора
-      +grep вывод пред и пост строк около найденной - контекст - -A -B -C(before and after)
-      git rebase
+      git rebase --squash
+      git cherry-pick
       как ветки работают при удалённом репе? если.. что? push origin?  new_fea
       создавать там ветку ещё одну удалённую?
       sockets создать на питоне проги обменивающиеся через них
-      rabbitmq ...
       модуль inspect
       генераторы
-      типы файлов в линуксе
-      cmd  cmp сравнение файлов
-      lsof
-      netstat lntup порты
-      fuser
-      семафоры..
-      ze..mq rabbitMQ
-      agile jira ..
-      mknod или mkfifo
+      rabbitmq ...ze..mq rabbitMQ
+      jira ..
+       +grep вывод пред и пост строк около найденной - контекст - -A -B -C(before and after)
+       типы файлов в линуксе
+       cmd  cmp сравнение файлов
+       lsof
+       семафоры..
+       agile 
+       netstat -lntup порты
+       fuser
+       mknod или mkfifo
+
+      patterns: adapter, wrapper, decorator, proxy, bridge, facade, chain of responsibility
+      cPanel,...
+      аспектно ориентированное п-е, js
+      php, namespaces
+      JS:
+      angular2
+      null > 0, null == 0
+      js test: selenium, karma?
+      вёрстка
+      backbone.js
 для чего использовать IPC? Надо найти задачу. может моя симуляция сгодится?
 есть существа и они обмениваются сообщениями(какими и для чего?)
 

@@ -6,6 +6,7 @@ Plug 'tpope/vim-commentary'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'jceb/vim-orgmode'
 Plug 'tpope/vim-speeddating'
+Plug 'leafgarland/typescript-vim'
 
 call plug#end()
 
