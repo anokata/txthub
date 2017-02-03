@@ -41,7 +41,7 @@ https://github.com/anokata/pythonPetProjects
 - Git, make, vim, tmux, bash
 - Опытный пользователь Linux
 - Математическая логика, теория множеств
-- haskell, lisp, C
+- haskell, lisp, C, assembler(x86)
 - Javascript(jQuery, Highcharts, handlebars.js, underscore.js, d3.js), node.js, npm, babel, typescript 
 - HTML, CSS
 - MDX, SQL 
