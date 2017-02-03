@@ -1,18 +1,8 @@
-добавить:
-помогать бизнесу, и клиентам.
-желаю чтобы оплата моего труда была пропорциональна моему вкладу в бизнес.
-Операционные системы, языки программирования, языковые технологии.
-Хобби: Играю в Го, катаюсь на роликах, читаю книги(философия, математика).
-Более всего меня интересует устройство и разработка операционных систем, а также языков
-программирования, компиляторов и сопутсвующего инструментария.
-Зарплатные ожидания:
-
 cv format in code(js/python)
-module CV
+module CV. No no no! CV for HR first!
 
 
-
-Hi, My name is Stas. I'm constantly improving developer, 28 year old. 
+Hi, My name is Stanislav. I'm constantly improving developer, 28 year old. 
 A little over two years, I worked for a company where was engaged in the development and
 refinement of the components of infographics (Typescript, d3.js, Highcharts) for frontend, 
 creating a metamodel reports on json / javascript, fix reports on asp.net, 
@@ -55,7 +45,3 @@ I want to work in an energetic team of experts doing something unusual and willi
 the professional development of all participants in the project.
 
 
-## init
-Здравствуйте! Меня зовут Станислав, мне 28 лет, 
-
-где узнал. что могу предложить(cv прилагается). готов связаться, контакты.
