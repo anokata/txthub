@@ -292,6 +292,7 @@ opengl кольца(планет) и линии..
   profiling
   Qt
   enable warnings
+  objdump (-d -x)
 
   #pragma once  для однкратного включения хидера.
   объявление \ определение
