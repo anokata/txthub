@@ -80,7 +80,7 @@ cmap ф a
 "==== DEV ====
 map <F9> :w<CR> :!python3 '%:t'<CR>
 map <F3> :w<CR> :!nodejs '%:t'<CR>
-map <F11> :w<CR> :!python3 '%:t' test<CR>
+map <F11> :w<CR> :!make<CR>
 map <F7> :!python3 -i '%:t'<CR>
 map <C-F9> :!python3 -i '%:t'<CR>
 map <F6> :!python3 -m pytest %<CR>
