@@ -132,7 +132,7 @@ alias sloc='cat *.c *.h | uniq | wc -l'
 echo -ne "$REDne"
 echo 'do traning'
 echo -ne "$GREENne"
-echo 'писать тесты'
+echo 'писать тесты. gtypist'
 echo -ne "$MG"
 echo 'Жить а не проживать.'
 
