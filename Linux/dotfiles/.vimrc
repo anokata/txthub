@@ -62,6 +62,13 @@ nmap <leader>. :tabprev<CR>
 nmap <leader>f zf)
 nmap <leader>a za
 " fold all
+" copy to system buffer
+nmap <leader>y "+y
+" TODO from vim buffer to sys
+" Paste from Clipboard
+nmap <leader>p "+p
+" Copy vim def " buffer to clipboard
+nmap <leader>s :let @+=@"<CR>
 
 nmap ё `
 nmap Ж :
