@@ -91,6 +91,7 @@ map <F11> :w<CR> :!make<CR>
 map <F12> :w<CR> :!g++ -std=c++11 '%' -o a.out && ./a.out<CR>
 map <F7> :!python3 -i '%:t'<CR>
 map <C-F9> :!python3 -i '%:t'<CR>
+map <F2> :w<CR> :!./%<CR>
 map <F6> :!python3 -m pytest %<CR>
 map <F5> :!python3 -m pytest % && python3 '%'<CR>
 "map <F5> :!python3 -m pytest tests/test_% && python3 '%'<CR>
