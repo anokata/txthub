@@ -78,3 +78,26 @@ gd go to definition
 :b go to name
 :bp :bn next pred
 :bd name del
+*** new to learn ***
+ciw change word
+ci" change inside ""
+ci( change inside ()
+gi go to last insert
+
+v% select (and inside)
+vib select inside ()
+viB select inside {}
+vi" vi'
+ggVG select all file
+:v/string/d  delete all lines without "string"
+:g/^$/d  delete all empty lines
+d/word delete to word
+Vu VU vEU  case upper lower
+gf open filename at cursor 
+
+:123,321s/foo/bar замена со строки до строки
+in insert:
+  C-R :  insert last command
+:Explore
+gg=G  indent all file
+** abbrevation **
