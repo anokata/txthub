@@ -95,7 +95,7 @@ map <F2> :w<CR> :!./%<CR>
 map <F6> :!python3 -m pytest %<CR>
 map <F5> :!python3 -m pytest % && python3 '%'<CR>
 "map <F5> :!python3 -m pytest tests/test_% && python3 '%'<CR>
-map <F10> :!make run<CR>
+map <F10> :w<CR> :!gcc '%' -o a.out && ./a.out<CR>
 map <C-F10> :!make test<CR>
 map <F8> :!dot -Tpng % -o%.png && feh %.png<CR>
 "==== Session ====
