@@ -87,7 +87,7 @@ cmap ф a
 "==== DEV ====
 map <F9> :w<CR> :!python3 '%:t'<CR>
 map <F3> :w<CR> :!nodejs '%:t'<CR>
-map <F11> :w<CR> :!make<CR>
+map <F11> :w<CR> :!make && ./qt<CR>
 map <F12> :w<CR> :!g++ -std=c++11 '%' -o a.out && ./a.out<CR>
 map <F7> :!python3 -i '%:t'<CR>
 map <C-F9> :!python3 -i '%:t'<CR>
@@ -121,6 +121,8 @@ imap <silent> <F4> <ESC>:set invpaste<CR>:set paste?<CR>
 nnoremap K i<CR><Esc>
 
 iab ifmain if __name__=='__main__':<CR>
+iabbrev #i #include 
+iabbrev #d #define  
 
 function! MakeDefSession()
   let b:filename = $HOME . "/.vim/sessions" . "/pythonDefSession.vim"
