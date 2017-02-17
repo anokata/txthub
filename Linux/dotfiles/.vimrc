@@ -87,19 +87,14 @@ cmap ч x
 cmap у e
 cmap ф a
 "==== DEV ====
+"F used: 2 4 9 10 11 12 free:3 5 6 7 8
+map <F2> :w<CR> :!./%<CR> 
 map <F9> :w<CR> :!python3 '%:t'<CR>
-map <F3> :w<CR> :!nodejs '%:t'<CR>
+map <F10> :w<CR> :!clang '%' -o a.out && ./a.out<CR>
 map <F11> :w<CR> :!make && ./qt<CR>
 map <F12> :w<CR> :!g++ -std=c++11 '%' -o a.out && ./a.out<CR>
-map <F7> :!python3 -i '%:t'<CR>
+map <C-F8> :!dot -Tpng % -o%.png && feh %.png<CR>
 map <C-F9> :!python3 -i '%:t'<CR>
-map <F2> :w<CR> :!./%<CR>
-map <F6> :!python3 -m pytest %<CR>
-map <F5> :!python3 -m pytest % && python3 '%'<CR>
-"map <F5> :!python3 -m pytest tests/test_% && python3 '%'<CR>
-map <F10> :w<CR> :!clang '%' -o a.out && ./a.out<CR>
-map <C-F10> :!make test<CR>
-map <F8> :!dot -Tpng % -o%.png && feh %.png<CR>
 "==== Session ====
 nmap <C-F5> :call MakeDefSession()<CR>
 nmap <S-F5> :call LoadDefSession()<CR>
