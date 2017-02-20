@@ -72,6 +72,8 @@ nmap <leader>p "+p
 " Copy vim def " buffer to clipboard
 nmap <leader>s :let @+=@"<CR>
 
+map <leader>r :execute "vimgrep /" . expand("<cword>") . "/j **" <Bar> cw<CR>
+
 nmap ё `
 nmap Ж :
 nmap ш i
