@@ -91,6 +91,7 @@ cmap ф a
 "==== DEV ====
 "F used: 2 4 9 10 11 12 free:3 5 6 7 8
 map <F2> :w<CR> :!./%<CR> 
+map <F3> :w<CR> :!gcc '%' -o a.out && ./a.out<CR>
 map <F9> :w<CR> :!python3 '%:t'<CR>
 map <F10> :w<CR> :!clang '%' -o a.out && ./a.out<CR>
 map <F11> :w<CR> :!make && ./qt<CR>
