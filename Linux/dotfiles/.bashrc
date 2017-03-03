@@ -129,12 +129,12 @@ export PS1="$GREEN\u$WHITE@$BLUE\A$WHITE\w\$ "
 alias youtube="youtube-dl -f 'bestvideo[height<=480]+bestaudio/best[height<=480]'"
 alias nano='nano -u -x'
 alias sloc='cat *.c *.h | uniq | wc -l'
-echo -ne "$REDne"
-echo 'do traning'
-echo -ne "$GREENne"
-echo 'писать тесты. gtypist'
-echo -ne "$MG"
-echo 'Жить а не проживать.'
+#echo -ne "$REDne"
+#echo 'do traning'
+#echo -ne "$GREENne"
+#echo 'писать тесты. gtypist'
+#echo -ne "$MG"
+#echo 'Жить а не проживать.'
 
 alias lk='ll | grep / | grep " \."'
 alias dush='du -sh'
