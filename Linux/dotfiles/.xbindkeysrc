@@ -7,3 +7,6 @@
 "xbacklight -inc 10"
     m:0xc + c:35
     Control+Alt + bracketright        
+"scrot"
+    m:0xc + c:39
+    Control+Alt + s
