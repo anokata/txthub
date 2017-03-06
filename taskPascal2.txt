@@ -50,3 +50,12 @@ http://pascalabc.net/primeri-programm/algoritmi-i-programmi-dlya-studentov
     13:30 решай!
 Задачи за которыми скрыт простой алгоритм с массивами\строками.. - минимальная потребность в формализации.
 простые олимпиадные задачи для школьников.
+
+write a program that takes a file as an argument and counts the total number of lines. Lines are defined as ending with a newline character. Program usage should be 
+
+In this challenge, given the name of a file, print out the size of the file, in bytes. If no file is given, provide a help string to the user that indicates how to use the program. You might need help with taking parameters via the command line or file I/O in C++
+
+ String Permutation Challenge
+Here is another mathematical problem, where the trick is as much to discover the algorithm as it is to write the code: write a program to display all possible permutations of a given input string--if the string contains duplicate characters, you may have multiple repeated results. Input should be of the form 
+
+
