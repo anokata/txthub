@@ -12,7 +12,7 @@ http://www.wikihow.com/Create-a-Programming-Language
 http://www.drdobbs.com/architecture-and-design/so-you-want-to-write-your-own-language/240165488
 
 Синтаксис:
-  : вместо = ?
+  : вместо = - удобнее печатать но надо удобнее читать, поэтому лучше длиннее! может ->
   ? в именах предикатах null?
   автоматически понимать где : и не должно быть его, но можно поставить чтобы в одну строку записать
     def a(): ret 0
@@ -20,3 +20,5 @@ http://www.drdobbs.com/architecture-and-design/so-you-want-to-write-your-own-lan
         ret 1
   - вместо _  snake_case_style or snake-case-style 
   минимум () {} [] по возможности использовать одни . , > < ; : #$%^&*
+
+понравилось в перле отдельное сравнение для строк и чисел

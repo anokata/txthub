@@ -95,6 +95,7 @@ map <F3> :w<CR> :!gcc -Wall '%' my*.c -o a.out && ./a.out<CR>
 map <F5> :w<CR> :!make one<CR> 
 map <F6> :w<CR> :!make two<CR> 
 map <F9> :w<CR> :!python3 '%:t'<CR>
+map <F9> :w<CR> :!perl '%'<CR>
 map <F10> :w<CR> :!clang '%' -o a.out && ./a.out<CR>
 map <F11> :w<CR> :!make && ./qt<CR>
 map <F12> :w<CR> :!g++ -std=c++11 '%' -o a.out && ./a.out<CR>
