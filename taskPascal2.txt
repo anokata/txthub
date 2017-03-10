@@ -58,4 +58,9 @@ In this challenge, given the name of a file, print out the size of the file, in 
  String Permutation Challenge
 Here is another mathematical problem, where the trick is as much to discover the algorithm as it is to write the code: write a program to display all possible permutations of a given input string--if the string contains duplicate characters, you may have multiple repeated results. Input should be of the form 
 
-
+Невероятно простая и сложная задача. Кластеризация.
+Дан сортированный массив чисел. В нём есть две группы чисел, меньшие слева и большеи
+справа. Найти число, отделяющее эти группы. Найти грань. Она может быть равна крайнему в
+левой группе или первому в правой или быть между ними. (бинарная кластеризация).
+Напиример [1, 2, 3, 5, 20, 22, 25] -> грань = 10. Как это проверять? Проще точное условие
+на грань - левая например.
