@@ -93,8 +93,8 @@ cmap ф a
 map <F2> :w<CR> :!./%<CR> 
 map <F3> :w<CR> :!gcc -Wall '%' -o a.out && ./a.out<CR>
 map <F7> :w<CR> :!gcc -Wall '%' -lncurses -o a.out && ./a.out<CR>
-map <F5> :w<CR> :!make one<CR> 
-map <F6> :w<CR> :!make two<CR> 
+map <F5> :w<CR> :!make '%:r'<CR>
+map <F6> :w<CR> :!make '%:r'debug<CR>
 map <F9> :w<CR> :!python3 '%:t'<CR>
 "map <F9> :w<CR> :!perl '%'<CR>
 map <F10> :w<CR> :!clang '%' -o a.out && ./a.out<CR>
