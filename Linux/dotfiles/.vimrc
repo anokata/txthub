@@ -91,8 +91,9 @@ cmap ф a
 "==== DEV ====
 "F used: 2 4 9 10 11 12 free:3 7 8
 map <F2> :w<CR> :!./%<CR> 
-map <F3> :w<CR> :!gcc -Wall '%' -o a.out && ./a.out<CR>
-map <F7> :w<CR> :!gcc -Wall '%' -lncurses -o a.out && ./a.out<CR>
+map <F7> :w<CR> :!gcc -Wall '%' -o a.out && ./a.out<CR>
+"map <F7> :w<CR> :!gcc -Wall '%' -lncurses -o a.out && ./a.out<CR>
+map <F3> :w<CR> :!make '%:r'<CR>
 map <F5> :w<CR> :!make '%:r'<CR>
 map <F6> :w<CR> :!make '%:r'debug<CR>
 map <F9> :w<CR> :!python3 '%:t'<CR>
