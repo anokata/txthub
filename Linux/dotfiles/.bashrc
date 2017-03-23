@@ -37,6 +37,7 @@ fi
 
 # set a fancy prompt (non-color, unless we know we "want" color)
 export TERM=xterm-256color
+#export TERM=xterm-8color
 case "$TERM" in
     xterm-color|*-256color) color_prompt=yes;;
 esac
