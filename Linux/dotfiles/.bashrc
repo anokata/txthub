@@ -155,3 +155,6 @@ shopt -s cdspell
 alias cterm='cool-retro-term -p ~/ksz.json'
 #tmux attach -t base || tmux new -s base
 _autostart.py
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
