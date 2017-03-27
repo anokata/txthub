@@ -139,6 +139,8 @@ alias sloc='cat *.c *.h | uniq | wc -l'
 
 alias lk='ll | grep / | grep " \."'
 alias dush='du -sh'
+alias dushgm='du -sh | grep M'
+alias dushgg='du -sh | grep G'
 alias lld='ll -d */'
 set -o vi
 
