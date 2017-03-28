@@ -170,3 +170,7 @@ fi
 if [ -f /home/ksi/gcloud/google-cloud-sdk/completion.bash.inc ]; then
   source '/home/ksi/gcloud/google-cloud-sdk/completion.bash.inc'
 fi
+
+# laravel (php)
+export PATH="/home/ksi/.config/composer/vendor/laravel/installer:$PATH"
+
