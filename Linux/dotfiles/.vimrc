@@ -37,6 +37,7 @@ set autochdir
 set foldmethod=indent
 set wrap
 set textwidth=90
+set autoread
 
 filetype off
 colorscheme desert
