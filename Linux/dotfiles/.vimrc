@@ -89,19 +89,20 @@ cmap й q
 cmap ч x
 cmap у e
 cmap ф a
+nnoremap <space> za
 "==== DEV ====
 "F used: 2 4 9 10 11 12 free:3 7 8
-map <F2> :w<CR> :!./%<CR> 
-map <F7> :w<CR> :!gcc -Wall '%' -o a.out && ./a.out<CR>
+map <F2> :w<CR>:!./%<CR> 
+map <F7> :w<CR>:!gcc -Wall '%' -o a.out && ./a.out<CR>
 "map <F7> :w<CR> :!gcc -Wall '%' -lncurses -o a.out && ./a.out<CR>
-map <F3> :w<CR> :!make '%:r'<CR>
-map <F5> :w<CR> :!make '%:r'<CR>
-map <F6> :w<CR> :!make '%:r'debug<CR>
-map <F9> :w<CR> :!python3 '%:t'<CR>
+map <F3> :w<CR>:!make '%:r'<CR>
+map <F5> :w<CR>:!make '%:r'<CR>
+map <F6> :w<CR>:!make '%:r'debug<CR>
+map <F9> :w<CR>:!python3 '%:t'<CR>
 "map <F9> :w<CR> :!perl '%'<CR>
-map <F10> :w<CR> :!clang '%' -o a.out && ./a.out<CR>
-map <F11> :w<CR> :!make && ./qt<CR>
-map <F12> :w<CR> :!g++ -std=c++11 '%' -o a.out && ./a.out<CR>
+map <F10> :w<CR>:!clang '%' -o a.out && ./a.out<CR>
+map <F11> :w<CR>:source %<CR>
+map <F12> :w<CR>:!g++ -std=c++11 '%' -o a.out && ./a.out<CR>
 map <C-F8> :!dot -Tpng % -o%.png && feh %.png<CR>
 map <C-F9> :!python3 -i '%:t'<CR>
 "==== Session ====
@@ -168,3 +169,14 @@ endif
 au VimLeave * :call MakeSession()
 " ---конец сессий---
 
+function! Mak()
+    echom "mak"
+    let g:file=expand('%:t:r')
+    "vnew
+    for i in [1, 2, 3] 
+        normal ggdG
+        execute "silent r! make " . g:file 
+        execute "sleep 1"
+    endfor
+endfunction
+"echo '>^.^<'
