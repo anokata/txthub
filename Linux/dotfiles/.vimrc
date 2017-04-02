@@ -91,20 +91,27 @@ cmap у e
 cmap ф a
 nnoremap <space> za
 "==== DEV ====
-"F used: 2 4 9 10 11 12 free:3 7 8
+"F used: 1 2 3 4 5 6 7 9 10 11 12 free: 8
+"Shell
 map <F2> :w<CR>:!./%<CR> 
-map <F7> :w<CR>:!gcc -Wall '%' -o a.out && ./a.out<CR>
-"map <F7> :w<CR> :!gcc -Wall '%' -lncurses -o a.out && ./a.out<CR>
-map <F3> :w<CR>:!make '%:r'<CR>
+"Java
+map <F3> :w<CR>:!javac '%:r' && java '%:r'<CR>
+"Generic make by filename
 map <F5> :w<CR>:!make '%:r'<CR>
 map <F6> :w<CR>:!make '%:r'debug<CR>
-map <F9> :w<CR>:!python3 '%:t'<CR>
-"map <F9> :w<CR> :!perl '%'<CR>
+"C
+map <F7> :w<CR>:!gcc -Wall '%' -o a.out && ./a.out<CR>
+"C
 map <F10> :w<CR>:!clang '%' -o a.out && ./a.out<CR>
+"VimL
 map <F11> :w<CR>:source %<CR>
+"C++
 map <F12> :w<CR>:!g++ -std=c++11 '%' -o a.out && ./a.out<CR>
-map <C-F8> :!dot -Tpng % -o%.png && feh %.png<CR>
-map <C-F9> :!python3 -i '%:t'<CR>
+"map <F9> :w<CR>:!python3 '%:t'<CR>
+"map <F9> :w<CR> :!perl '%'<CR>
+"map <C-F8> :!dot -Tpng % -o%.png && feh %.png<CR>
+"map <C-F9> :!python3 -i '%:t'<CR>
+"map <F7> :w<CR> :!gcc -Wall '%' -lncurses -o a.out && ./a.out<CR>
 "==== Session ====
 nmap <C-F5> :call MakeDefSession()<CR>
 nmap <S-F5> :call LoadDefSession()<CR>
