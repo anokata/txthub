@@ -95,7 +95,7 @@ nnoremap <space> za
 "Shell
 map <F2> :w<CR>:!./%<CR> 
 "Java
-map <F3> :w<CR>:!javac '%:r' && java '%:r'<CR>
+map <F3> :w<CR>:!javac '%' && java '%:r'<CR>
 "Generic make by filename
 map <F5> :w<CR>:!make '%:r'<CR>
 map <F6> :w<CR>:!make '%:r'debug<CR>
