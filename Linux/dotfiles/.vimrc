@@ -6,10 +6,13 @@ Plug 'tpope/vim-commentary'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'jceb/vim-orgmode'
 Plug 'tpope/vim-speeddating'
-Plug 'leafgarland/typescript-vim'
+"Plug 'leafgarland/typescript-vim'
+Plug 'Raimondi/delimitMate'
+Plug 'airblade/vim-rooter'
 
 call plug#end()
 
+let g:rooter_patterns = ['Makefile']
 " ================ Persistent Undo ==================
 if has('persistent_undo')
     silent !mkdir ~/.vim/backups > /dev/null 2>&1
@@ -34,7 +37,11 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 set autochdir
-set foldmethod=indent
+"set foldmethod=indent
+set foldmethod=syntax
+set foldenable
+syn region foldBraces start=/{/ end=/}/ transparent fold
+syn region foldJavadoc start=,/\*\*, end=,\*/, transparent fold keepend
 set wrap
 set textwidth=90
 set autoread
@@ -97,8 +104,8 @@ map <F2> :w<CR>:!./%<CR>
 "Java
 map <F3> :w<CR>:!javac '%' && java '%:r'<CR>
 "Generic make by filename
-map <F5> :w<CR>:!make '%:r'<CR>
-map <F6> :w<CR>:!make '%:r'debug<CR>
+map <F5> :w<CR>:!make '%:t:r'<CR>
+map <F6> :w<CR>:!make '%:t:r'debug<CR>
 "C
 map <F7> :w<CR>:!gcc -Wall '%' -o a.out && ./a.out<CR>
 "C
