@@ -36,7 +36,7 @@ set nu
 set expandtab
 set tabstop=4
 set shiftwidth=4
-set autochdir
+"set autochdir
 "set foldmethod=indent
 set foldmethod=syntax
 set foldenable
@@ -99,6 +99,8 @@ cmap ф a
 nnoremap <space> za
 "==== DEV ====
 "F used: 1 2 3 4 5 6 7 9 10 11 12 free: 8
+" substitute(expand("%:r"), "/", ".", "g")
+map <F9> :w<CR>:exe "make java JavaSource=" . expand("%") . " JavaClass=" . substitute(expand("%:r"), "/", ".", "g")<CR>
 "Shell
 map <F2> :w<CR>:!./%<CR> 
 "Java
