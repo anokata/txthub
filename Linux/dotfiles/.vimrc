@@ -36,7 +36,7 @@ set nu
 set expandtab
 set tabstop=4
 set shiftwidth=4
-"set autochdir
+set autochdir
 "set foldmethod=indent
 set foldmethod=syntax
 set foldenable
