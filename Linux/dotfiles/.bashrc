@@ -173,4 +173,5 @@ fi
 
 # laravel (php)
 export PATH="/home/ksi/.config/composer/vendor/laravel/installer:$PATH"
+export CATALINA_HOME=/opt/tomcat
 
