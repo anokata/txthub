@@ -1,0 +1,47 @@
+cv format in code(js/python)
+module CV. No no no! CV for HR first!
+
+
+Hi, My name is Stanislav. I'm constantly improving developer, 28 year old. 
+A little over two years, I worked for a company where was engaged in the development and
+refinement of the components of infographics (Typescript, d3.js, Highcharts) for frontend, 
+creating a metamodel reports on json / javascript, fix reports on asp.net, 
+writing mdx / sql queries to multidimensional / relational databases. 
+I believe my strong points are my hunger for knowledge and fast learning. 
+I prefer to automate everyday routine of using my knowledge and expand them at the same time. 
+
+I am doing home projects in python: small games, chat, simple script (weather statistics, counting lines of code)
+My profile at github: 
+https://github.com/anokata
+Specific projects on Python: 
+https://github.com/anokata/pythonPetProjects
+
+Listed below are my experience and skills. 
+- Python 3.x 
+- Javascript(jQuery, Highcharts, handlebars.js, underscore.js, d3.js) 
+- HTML, CSS
+- MDX, SQL 
+- Git, make, vim, tmux, bash
+- Experienced linux user 
+- Math and logic
+
+My brief biography
+2004 (16 years old) studied self-educated Delphi. Basics - the variables, language constructs, forms.
+2005 wend to college. Surface taught basic structures - lists, queues, trees in Pascal.
+2006 Learn the basics of javascript, html, css.
+2007 Learn the basic Linux. Participated 2 times in competitions, the regional and Russia.
+2008 Self-learning assembler, writing on it a simple interpreter of C-like language and
+degree work - encryption executable with xor with the storage key in a file, appending
+decryption code and checking date and availability of the key in the code section.
+2010 Surfactants learn many languages and technologies: python, lisp, haskell, Forth, J, smalltalk
+2011 Change area of interest and learn Japanese and Chinese
+2013 Study mathematics (logic, general algebra, metamath)
+2014 Again learn Java, C #, Haskell, detailed javascript.
+        I get a job, where studied the mdx, writing a bit on javascript and typescript
+2016 I start to deeper learn C and Python.
+
+I like to do something useful, necessary and had not previously existed.
+I want to work in an energetic team of experts doing something unusual and willing to help
+the professional development of all participants in the project.
+
+
